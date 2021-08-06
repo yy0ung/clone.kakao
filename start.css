@@ -1,0 +1,102 @@
+body{
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  --color-background:#fff700;
+  --color-icon: #999993;
+  --color-a: #b6b6aa;
+  --color-profile:#8fa2be;
+  --color-button:#51454c;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:350px;
+  max-width: 350px;
+  background-color: var(--color-background);
+  padding: 200px 20px;
+}
+
+.icons{
+  color:var(--color-icon);
+  position: relative;
+  left:150px;
+  bottom:190px;
+
+}
+
+
+.icons #icon1:hover,#icon2:hover,#icon3:hover{
+  color:black;
+  cursor:pointer;
+}
+
+#pic{
+  position: relative;
+  bottom:80px;
+}
+
+.inputbox{
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width:250px;
+}
+
+.inputbox #id,#pw{
+  height:40px;
+  border-style: none;
+  border: 0.1px solid gray;
+}
+#id{
+  border-bottom: none;
+}
+#pw{
+  border-top:none;
+}
+
+.button input{
+  width:250px;
+  height: 40px;
+  border: none;
+  color:gray;
+}
+
+.checkbox{
+  margin-top:10px;
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.checkbox #question{
+  color:gray;
+}
+
+.last{
+  position: relative;
+  top:180px;
+}
+
+.last a{
+  color:var(--color-a);
+  text-decoration: none;
+  font-size: 0.9rem;
+
+}
+
+.last a:hover{
+  text-decoration: underline;
+}
+
+.button input:hover{
+  color: white;
+  background-color: var(--color-button);
+  cursor:pointer;
+}
